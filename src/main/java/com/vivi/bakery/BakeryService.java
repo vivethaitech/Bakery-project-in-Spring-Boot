@@ -1,51 +1,51 @@
 package com.vivi.bakery;
 
-import java.util.ArrayList;
 import java.util.List;
-
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
 
 @Service
 public class BakeryService {
-	private static final Logger logger = LoggerFactory.getLogger(BakeryService.class);
+	private BakeryRepo repo;
 	
-	List<Bakery> bake = new ArrayList<>();
-	
-	public List<Bakery> getItemDetails() {
-		logger.info("Fetching all item details");
-		return bake;
+	@Autowired
+	public BakeryService(BakeryRepo repo) {
+		this.repo=repo;
 	}
 
-	
+	public List<Bakery> getItemDetails() {	
+		return repo.findAll();
+	}
+
 	public String postItemDetails(Bakery b) {
-		bake.add(b);
-		logger.info("Added new item: {}", b);
+		repo.save(b);
 		return "Item details successfully added";
 	}
-	
-
-	public String postItemDetails(String itemName,int price) {
-		for(Bakery b:bake) {
-			if (b.getItemName().equalsIgnoreCase(itemName)) { 
-				b.setPrice(price);
-				return "price updated Successfully";
-			}
-		}
-		logger.warn("Item not found: ", itemName);
-		return "Sorry, Item not found to change the price";
-	}
-	
-	
+		
+    public String updateItemDetails(String name,Bakery b) {
+    	List<Bakery> bake = repo.findAll();
+    	for(Bakery bb:bake) {
+    		if(bb.getItemName().equals(name)) {
+    			bb.setItemName(b.getItemName());
+    			bb.setPrice(b.getPrice());
+    			bb.setStock(b.getStock());
+    			return "Item successfully updated";
+    		}
+    	}
+    	return "Item not found to update";
+    }
+      
 	public String deleteItemDetails(String itemName) {
-		for(Bakery b:bake) {
+		List<Bakery> bake = repo.findAll();
+	
+		for(Bakery b: bake) {
 			if(b.getItemName().equals(itemName)) {
-				bake.remove(b);
+				repo.deleteById(b.getItemId());
 				return "Item deleted successfully";
 			}
 		}
-		logger.warn("Item not found: ", itemName);
+		
 		return "Sorry, Item not found to delete";
 	}
 }

@@ -32,14 +32,13 @@ public class BakeryController {
 		return service.postItemDetails(b);
 	}
 	
-	@PutMapping("/bakery/update/{itemName}")
-	public String putItemDetails(@PathVariable String itemName, @RequestParam int price ) {
-		return service.postItemDetails(itemName,price);
-	}
+    @PutMapping("bakery/update/{itemName}")
+    public String updateItemDetails(@PathVariable String itemName, @RequestBody Bakery b) {
+    	return service.updateItemDetails(itemName, b);
+    }
 	
 	@DeleteMapping("/bakery/delete/{itemName}")
 	public String deleteItemDetails(@PathVariable String itemName) {
 		return service.deleteItemDetails(itemName);
 	}
-
 }
