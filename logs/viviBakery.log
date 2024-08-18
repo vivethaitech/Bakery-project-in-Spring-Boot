@@ -1,0 +1,198 @@
+2024-08-17 17:16:37 [main] INFO  com.vivi.bakery.BakeryApplication - Starting BakeryApplication using Java 21.0.3 with PID 63189 (/home/dotnet/Downloads/bakery/target/classes started by dotnet in /home/dotnet/Downloads/bakery)
+2024-08-17 17:16:37 [main] INFO  com.vivi.bakery.BakeryApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-17 17:16:37 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-08-17 17:16:37 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-08-17 17:16:37 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-17 17:16:37 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-17 17:16:37 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-17 17:16:37 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 530 ms
+2024-08-17 17:16:38 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-08-17 17:16:38 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-08-17 17:16:38 [main] INFO  com.vivi.bakery.BakeryApplication - Started BakeryApplication in 0.966 seconds (process running for 1.242)
+2024-08-17 17:37:10 [main] INFO  com.vivi.bakery.BakeryApplication - Starting BakeryApplication using Java 21.0.3 with PID 65599 (/home/dotnet/Downloads/bakery/target/classes started by dotnet in /home/dotnet/Downloads/bakery)
+2024-08-17 17:37:10 [main] INFO  com.vivi.bakery.BakeryApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-17 17:37:10 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-08-17 17:37:10 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-08-17 17:37:10 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-17 17:37:10 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-17 17:37:10 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-17 17:37:10 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 498 ms
+2024-08-17 17:37:10 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-08-17 17:37:10 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-08-17 17:37:10 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-08-17 17:37:10 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-08-17 17:37:20 [main] INFO  com.vivi.bakery.BakeryApplication - Starting BakeryApplication using Java 21.0.3 with PID 65651 (/home/dotnet/Downloads/bakery/target/classes started by dotnet in /home/dotnet/Downloads/bakery)
+2024-08-17 17:37:20 [main] INFO  com.vivi.bakery.BakeryApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-17 17:37:21 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-08-17 17:37:21 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-08-17 17:37:21 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-17 17:37:21 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-17 17:37:21 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-17 17:37:21 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 536 ms
+2024-08-17 17:37:21 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-08-17 17:37:21 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-08-17 17:37:21 [main] INFO  com.vivi.bakery.BakeryApplication - Started BakeryApplication in 0.983 seconds (process running for 1.236)
+2024-08-17 17:43:14 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-17 17:43:14 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-17 17:43:14 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-08-17 17:43:23 [http-nio-8080-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2024-08-17 17:44:16 [main] INFO  com.vivi.bakery.BakeryApplication - Starting BakeryApplication using Java 21.0.3 with PID 66302 (/home/dotnet/Downloads/bakery/target/classes started by dotnet in /home/dotnet/Downloads/bakery)
+2024-08-17 17:44:16 [main] INFO  com.vivi.bakery.BakeryApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-17 17:44:16 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-08-17 17:44:17 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-08-17 17:44:17 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-17 17:44:17 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-17 17:44:17 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-17 17:44:17 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 594 ms
+2024-08-17 17:44:17 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-08-17 17:44:17 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-08-17 17:44:17 [main] INFO  com.vivi.bakery.BakeryApplication - Started BakeryApplication in 1.075 seconds (process running for 1.378)
+2024-08-17 17:44:25 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-17 17:44:25 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-17 17:44:25 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-08-17 17:44:25 [http-nio-8080-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2024-08-17 17:49:50 [http-nio-8080-exec-4] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `int` from String "1000 per kg": not a valid `int` value]
+2024-08-17 17:53:21 [http-nio-8080-exec-6] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `int` from String "1000 per kg": not a valid `int` value]
+2024-08-17 18:18:14 [main] INFO  com.vivi.bakery.BakeryApplication - Starting BakeryApplication using Java 21.0.3 with PID 70579 (/home/dotnet/Downloads/bakery/target/classes started by dotnet in /home/dotnet/Downloads/bakery)
+2024-08-17 18:18:14 [main] INFO  com.vivi.bakery.BakeryApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-17 18:18:15 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-08-17 18:18:15 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-08-17 18:18:15 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-17 18:18:15 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-17 18:18:15 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-17 18:18:15 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 614 ms
+2024-08-17 18:18:15 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-08-17 18:18:15 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-08-17 18:18:15 [main] INFO  com.vivi.bakery.BakeryApplication - Started BakeryApplication in 1.124 seconds (process running for 1.441)
+2024-08-17 18:18:19 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-17 18:18:19 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-17 18:18:19 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-08-17 18:29:07 [http-nio-8080-exec-8] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'price' for method parameter type int is not present]
+2024-08-17 18:31:35 [http-nio-8080-exec-10] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'price' for method parameter type int is not present]
+2024-08-17 18:32:33 [http-nio-8080-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'price' for method parameter type int is not present]
+2024-08-17 18:34:33 [http-nio-8080-exec-4] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'price' for method parameter type int is not present]
+2024-08-17 18:34:43 [http-nio-8080-exec-6] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'price' for method parameter type int is not present]
+2024-08-17 18:35:30 [http-nio-8080-exec-8] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'price' for method parameter type int is not present]
+2024-08-17 18:39:49 [http-nio-8080-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'price' for method parameter type int is not present]
+2024-08-17 18:40:04 [http-nio-8080-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'price' for method parameter type int is not present]
+2024-08-17 18:56:44 [main] INFO  com.vivi.bakery.BakeryApplication - Starting BakeryApplication using Java 21.0.3 with PID 73693 (/home/dotnet/Downloads/bakery/target/classes started by dotnet in /home/dotnet/Downloads/bakery)
+2024-08-17 18:56:44 [main] INFO  com.vivi.bakery.BakeryApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-17 18:56:44 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-08-17 18:56:44 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-08-17 18:56:44 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-17 18:56:44 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-17 18:56:44 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-17 18:56:44 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 640 ms
+2024-08-17 18:56:45 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-08-17 18:56:45 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-08-17 18:56:45 [main] INFO  com.vivi.bakery.BakeryApplication - Started BakeryApplication in 1.132 seconds (process running for 1.453)
+2024-08-17 18:56:51 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-17 18:56:51 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-17 18:56:51 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-08-17 18:56:51 [http-nio-8080-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'price' for method parameter type int is not present]
+2024-08-17 18:56:52 [http-nio-8080-exec-4] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'price' for method parameter type int is not present]
+2024-08-17 18:56:53 [http-nio-8080-exec-6] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'price' for method parameter type int is not present]
+2024-08-17 18:56:57 [http-nio-8080-exec-8] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'price' for method parameter type int is not present]
+2024-08-17 19:04:52 [main] INFO  com.vivi.bakery.BakeryApplication - Starting BakeryApplication using Java 21.0.3 with PID 74473 (/home/dotnet/Downloads/bakery/target/classes started by dotnet in /home/dotnet/Downloads/bakery)
+2024-08-17 19:04:52 [main] INFO  com.vivi.bakery.BakeryApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-17 19:04:53 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-08-17 19:04:53 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-08-17 19:04:53 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-17 19:04:53 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-17 19:04:53 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-17 19:04:53 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 629 ms
+2024-08-17 19:04:53 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-08-17 19:04:53 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-08-17 19:04:53 [main] INFO  com.vivi.bakery.BakeryApplication - Started BakeryApplication in 1.116 seconds (process running for 1.394)
+2024-08-17 19:19:59 [main] INFO  com.vivi.bakery.BakeryApplication - Starting BakeryApplication using Java 21.0.3 with PID 75593 (/home/dotnet/Downloads/bakery/target/classes started by dotnet in /home/dotnet/Downloads/bakery)
+2024-08-17 19:19:59 [main] INFO  com.vivi.bakery.BakeryApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-17 19:20:00 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-08-17 19:20:00 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-08-17 19:20:00 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-17 19:20:00 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-17 19:20:00 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-17 19:20:00 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 551 ms
+2024-08-17 19:20:00 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-08-17 19:20:00 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-08-17 19:20:00 [main] INFO  com.vivi.bakery.BakeryApplication - Started BakeryApplication in 1.027 seconds (process running for 1.292)
+2024-08-17 19:21:53 [main] INFO  com.vivi.bakery.BakeryApplication - Starting BakeryApplication using Java 21.0.3 with PID 75744 (/home/dotnet/Downloads/bakery/target/classes started by dotnet in /home/dotnet/Downloads/bakery)
+2024-08-17 19:21:53 [main] DEBUG com.vivi.bakery.BakeryApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-17 19:21:53 [main] INFO  com.vivi.bakery.BakeryApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-17 19:21:53 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-08-17 19:21:53 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-08-17 19:21:53 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-17 19:21:53 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-17 19:21:53 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-17 19:21:53 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 641 ms
+2024-08-17 19:21:54 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-08-17 19:21:54 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-08-17 19:21:54 [main] INFO  com.vivi.bakery.BakeryApplication - Started BakeryApplication in 1.154 seconds (process running for 1.466)
+2024-08-17 19:22:28 [main] INFO  com.vivi.bakery.BakeryApplication - Starting BakeryApplication using Java 21.0.3 with PID 75825 (/home/dotnet/Downloads/bakery/target/classes started by dotnet in /home/dotnet/Downloads/bakery)
+2024-08-17 19:22:28 [main] DEBUG com.vivi.bakery.BakeryApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-17 19:22:28 [main] INFO  com.vivi.bakery.BakeryApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-17 19:22:29 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-08-17 19:22:29 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-08-17 19:22:29 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-17 19:22:29 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-17 19:22:29 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-17 19:22:29 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 557 ms
+2024-08-17 19:22:29 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-08-17 19:22:29 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-08-17 19:22:29 [main] INFO  com.vivi.bakery.BakeryApplication - Started BakeryApplication in 1.026 seconds (process running for 1.314)
+2024-08-17 19:22:51 [main] INFO  com.vivi.bakery.BakeryApplication - Starting BakeryApplication using Java 21.0.3 with PID 75901 (/home/dotnet/Downloads/bakery/target/classes started by dotnet in /home/dotnet/Downloads/bakery)
+2024-08-17 19:22:51 [main] DEBUG com.vivi.bakery.BakeryApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-17 19:22:51 [main] INFO  com.vivi.bakery.BakeryApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-17 19:22:52 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-08-17 19:22:52 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-08-17 19:22:52 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-17 19:22:52 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-17 19:22:52 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-17 19:22:52 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 566 ms
+2024-08-17 19:22:52 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-08-17 19:22:52 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-08-17 19:22:52 [main] INFO  com.vivi.bakery.BakeryApplication - Started BakeryApplication in 1.07 seconds (process running for 1.416)
+2024-08-17 19:25:23 [main] INFO  com.vivi.bakery.BakeryApplication - Starting BakeryApplication using Java 21.0.3 with PID 76163 (/home/dotnet/Downloads/bakery/target/classes started by dotnet in /home/dotnet/Downloads/bakery)
+2024-08-17 19:25:23 [main] DEBUG com.vivi.bakery.BakeryApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-17 19:25:23 [main] INFO  com.vivi.bakery.BakeryApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-17 19:25:23 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-08-17 19:25:23 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-08-17 19:25:23 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-17 19:25:23 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-17 19:25:23 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-17 19:25:23 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 671 ms
+2024-08-17 19:25:24 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-08-17 19:25:24 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-08-17 19:25:24 [main] INFO  com.vivi.bakery.BakeryApplication - Started BakeryApplication in 1.216 seconds (process running for 1.53)
+2024-08-17 19:25:37 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-17 19:25:37 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-17 19:25:37 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-08-17 19:29:22 [main] INFO  com.vivi.bakery.BakeryApplication - Starting BakeryApplication using Java 21.0.3 with PID 76720 (/home/dotnet/Downloads/bakery/target/classes started by dotnet in /home/dotnet/Downloads/bakery)
+2024-08-17 19:29:22 [main] DEBUG com.vivi.bakery.BakeryApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-17 19:29:22 [main] INFO  com.vivi.bakery.BakeryApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-17 19:29:22 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-08-17 19:29:22 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-08-17 19:29:22 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-17 19:29:22 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-17 19:29:22 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-17 19:29:22 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 562 ms
+2024-08-17 19:29:23 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-08-17 19:29:23 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-08-17 19:29:23 [main] INFO  com.vivi.bakery.BakeryApplication - Started BakeryApplication in 1.075 seconds (process running for 1.341)
+2024-08-17 19:29:27 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-17 19:29:27 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-17 19:29:27 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
