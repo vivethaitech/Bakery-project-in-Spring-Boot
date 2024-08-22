@@ -12,6 +12,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import jakarta.validation.Valid;
+
 @RestController
 public class BakeryController {
 	
@@ -28,13 +30,14 @@ public class BakeryController {
 	}
 	
 	@PostMapping("/bakery/add")
-	public String PostItemDetails(@RequestBody Bakery b) {
+	public String PostItemDetails(@RequestBody @Valid BakeryModel bm) {
+		Bakery b = new Bakery(bm.getItemName(),bm.getPrice(),bm.getStockCount());
 		return service.postItemDetails(b);
 	}
 	
     @PutMapping("bakery/update/{itemName}")
-    public String updateItemDetails(@PathVariable String itemName, @RequestBody Bakery b) {
-    	return service.updateItemDetails(itemName, b);
+    public String updateItemDetails(@PathVariable String itemName, @RequestParam int price) {
+    	return service.updateItemDetails(itemName, price);
     }
 	
 	@DeleteMapping("/bakery/delete/{itemName}")
