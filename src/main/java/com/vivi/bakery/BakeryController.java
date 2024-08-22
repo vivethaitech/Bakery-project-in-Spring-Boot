@@ -18,12 +18,14 @@ import jakarta.validation.Valid;
 public class BakeryController {
 	
 	private BakeryService service;
+	private GroceryShop gs;
 	
 	@Autowired
-	public BakeryController(BakeryService service) {
+	public BakeryController(BakeryService service, GroceryShop gs) {
 		this.service=service;
+		this.gs=gs;
 	}
-	
+
 	@GetMapping("/bakery/read")
 	public List<Bakery> getItemDetails(){
 		return service.getItemDetails();
@@ -44,4 +46,9 @@ public class BakeryController {
 	public String deleteItemDetails(@PathVariable String itemName) {
 		return service.deleteItemDetails(itemName);
 	}
+    @GetMapping("/grocery/message")
+    public String getGroceryMessage() {
+        return gs.getMessage();
+    }
+	
 }
