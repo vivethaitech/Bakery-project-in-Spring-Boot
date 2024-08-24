@@ -37,6 +37,8 @@ public class BakeryController {
 		return service.postItemDetails(b);
 	}
 	
+	
+	
     @PutMapping("bakery/update/{itemName}")
     public String updateItemDetails(@PathVariable String itemName, @RequestParam int price) {
     	return service.updateItemDetails(itemName, price);
@@ -49,6 +51,10 @@ public class BakeryController {
     @GetMapping("/grocery/message")
     public String getGroceryMessage() {
         return gs.getMessage();
+    }
+    @GetMapping("bakery/swagger/hello")
+    public String sayHello() {
+    return "Hello, Swagger!";
     }
 	
 }
